@@ -31,7 +31,7 @@ header {
     align-items: center;
     padding: 20px 10%;
 }
-
+/*
 .nav_links {
     list-style: none;
 }
@@ -47,6 +47,8 @@ header {
     color: blue;
     text-decoration: underline;
 }
+
+*/
 
 h1:hover {
     color: blue;
@@ -68,8 +70,7 @@ li {
     padding: opx, 20px, 0px, 20px;
 }
 
-.profile_pic {
-    width: 10%;
+.igor_img {
     float: left;
     padding-top: 1%;
     padding-left: 20%;
@@ -107,6 +108,7 @@ p {
 }
 
 #graduation {
+    text-align: left;
     padding-left: 35%;
     padding-right: 30%;
     padding-bottom: 5%;
@@ -114,7 +116,6 @@ p {
 
 #graduation_picture {
     float: left;
-    width: 12%;
     padding-left: 19.5%;
 }
 
@@ -125,7 +126,6 @@ h3 {
 
 #skills_picture {
     padding-left: 20%;
-    width: 10%;
     float: left;
 }
 
@@ -137,7 +137,6 @@ h3 {
 }
 
 #key_picture {
-    width: 10%;
     padding-left: 20%;
     float: left;
 }
@@ -170,7 +169,6 @@ summary {
 /************************************************ git section  *****************************************/
 
 #git_logo {
-    width: 10%;
     float: left;
     padding-left: 20%;
     margin-right: 5%;
@@ -182,20 +180,8 @@ summary {
 }
 
 #git_text_head {
+    text-align: left;
     padding-left: 35%;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
-.git_button {
-    width: 300px;
-    height: 100px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    font-family: 'Indie Flower', cursive, sans-serif;
-    font-size: larger;
 }
 
 
@@ -236,6 +222,10 @@ textarea {
     padding-bottom: 3%;
 }
 
+select{
+    text-align-last:center;
+}
+}
 #submit {
 
     background-color: black;
